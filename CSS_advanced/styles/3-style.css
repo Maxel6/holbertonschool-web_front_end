@@ -21,6 +21,7 @@ a {
 .section-tagline {
     color:var(--color-primary);
 }
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
