@@ -56,8 +56,35 @@ a:active {
     color: var(--color-primary);
 }
 
+.section {
+    margin: var(--section-padding);
+    width: var(--section-padding);
+    border: var(--section-padding);
+    padding: var(--section-padding);
+}
+
 .section-header {
     text-align: var(--section-header-align);
+    margin: var(--section-header-padding);
+    width: var(--section-header-padding);
+    border: var(--section-header-padding);
+    padding: var(--section-header-padding);
+}
+
+.section-body {
+    text-align: var(--section-body-align);
+    margin: var(--section-body-padding);
+    width: var(--section-body-padding);
+    border: var(--section-body-padding);
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    margin: var(--section-footer-padding);
+    width: var(--section-footer-padding);
+    border: var(--section-footer-padding);
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 
 .section-title {
@@ -104,6 +131,12 @@ a:active {
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 /**
  * Render heading style element
@@ -113,3 +146,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+footer {
+    margin: var(--footer-padding);
+    width: var(--footer-padding);
+    border: var(--footer-padding);
+    padding: var(--footer-padding);
+}
