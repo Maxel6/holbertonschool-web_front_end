@@ -7,7 +7,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- *, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -15,6 +17,7 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
+
 /* Sections
    ========================================================================== */
 /**
@@ -40,9 +43,11 @@ a:link,
 a:visited {
     font-style: italic;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 a:active {
     background-color: var(--color-light-grey);
 }
@@ -129,11 +134,16 @@ a:active {
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
 }
+
 /**
  * Render heading style element
  */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-
